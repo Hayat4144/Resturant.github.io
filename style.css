@@ -1,0 +1,467 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*start header*/
+.header{
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,12,0)),   url('/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+/*navbar styling*/
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+   
+}
+.logo{
+    margin-left: 80px;
+    width: 20%;
+}
+.logo h1{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    margin: 0px 8px;
+    padding: 0px 10px;
+    font-size: 1.2rem;
+    transition: 0.2sec;
+
+}
+.navbar ul li a:hover{
+    color: #df1111;
+}
+.right-menu{
+    margin-left: 10px;
+    color: white;
+    display: flex;
+    font-weight: 200;
+    align-items: center;
+
+}
+.right-menu h3{
+    padding: 0 4px;
+    text-transform: capitalize;
+}
+.right-menu button{
+    padding: 6px 14px;
+    margin-left: 10px;
+    border: none;
+    background-color: #df1111;
+    text-align: center;
+}
+.right-menu button a{
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+}
+.home-text{
+    position: absolute;
+    top: 50%;
+    left: 80px;
+}
+.home-text h5{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.home-text h1{
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 25px;
+
+}
+.reserve-button{
+    background: transparent;
+    padding: 8px 15px;
+    
+}
+.reserve-button a{
+    margin: 15px 0;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: inherit;
+    font-size: 15px;
+    color: white;
+}
+.reserve-button:hover{
+    background-color: #df1111;
+    border: none;
+}
+/*end of header*/
+
+
+/*start of about section*/
+
+.about{
+    margin: 80px 80px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 50px;
+}
+.about .heading{
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: 100;
+    margin-bottom: 5px;
+    
+}
+.about .heading span{
+    color: #df1111;
+}
+.para{
+    display: flex;
+    margin-right: 80px;
+}
+.para1{
+    margin-right: 20px;
+    padding-right: 50px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+.para2{
+    margin-top: 7px;
+    padding-top: 18px;
+    
+}
+.img{
+    margin-right: -91px;;
+    padding-right:-21px; 
+}
+
+/*Menu section styling*/
+.menu-section{
+    margin: 80px 80px;
+    padding-bottom: 30px;
+    border-bottom:2px solid #eee;
+    
+}
+.menu-mid-text{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.menu-mid-text h1{
+    text-transform: capitalize;
+    font-weight: 100;
+    
+}
+.menu-mid-text P{
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.menu-mid-text h1 span{
+    color: #df1111;
+}
+/*styling menu-row1*/
+
+.menu-row1{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom:50px ;
+}
+.menu-pic1{
+    margin-right: 30px;
+    border: 2px solid #eee;
+}
+.menu-pic1 img{
+    width: 370px;
+    height: 310px;
+}
+.menu-pic1 h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: #df1111;
+    margin-top: 10px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.menu-pic2{
+    margin-right: 30px;
+    border: 2px solid #eee;
+
+}
+.menu-pic2 img{
+    width: 370px;
+    height: 310px;
+}
+.menu-pic2 h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: #df1111;
+    margin-top: 10px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.menu-pic3{
+    border: 2px solid #eee;
+
+}
+.menu-pic3 img{
+    width: 370px;
+    height: 310px;
+}
+.menu-pic3 h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: #df1111;
+    margin-top: 10px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+/*end of end of row1*/
+
+
+/*start of start of row2*/
+.menu-row2{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.menu-pic4{
+    margin-right: 30px;
+    border: 2px solid #eee;
+}
+.menu-pic4 img{
+    width: 370px;
+    height: 310px;
+}
+.menu-pic4 h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: #df1111;
+    margin-top: 10px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.menu-pic5{
+    margin-right: 30px;
+    border: 2px solid #eee;
+}
+.menu-pic5 img{
+    width: 370px;
+    height: 310px;
+}
+.menu-pic5 h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: #df1111;
+    margin-top: 10px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.menu-pic6{
+    margin-right: 30px;
+    border: 2px solid #eee;
+}
+.menu-pic6 img{
+    width: 370px;
+    height: 310px;
+}
+.menu-pic6 h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: #df1111;
+    margin-top: 10px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+/*start of chef expert*/
+.chef-sect{
+    margin: 80px 80px ;
+    
+    
+}
+.chef-text{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+.chef-text h2{
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.chef-text span{
+    color: #df1111;
+}
+.chef-text p{
+    letter-spacing: 2px;
+}
+
+.chef-row{
+    display: flex;
+    text-align: center;
+    
+}
+.chef-row .pic1{
+    margin-right: 30px;
+    border: 2px solid #eee;
+}
+.chef-row .pic1 img{
+    width: 370px;
+    height: 350px;
+  
+}
+.chef-row .pic1 h2{
+    color: #df1111;
+    font-weight: 100;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.chef-row .pic2{
+    margin-right: 30px;
+    border: 2px solid #eee;
+}
+.chef-row .pic2 img{
+    width: 370px;
+    height: 350px;
+  
+}
+.chef-row .pic2 h2{
+    color: #df1111;
+    font-weight: 100;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.chef-row .pic3 {
+    margin-right: 30px;
+    border: 2px solid #eee;
+}
+.chef-row .pic3 img{
+    width: 370px;
+    height: 350px;
+  
+}
+.chef-row .pic3 h2{
+    color: #df1111;
+    font-weight: 100;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/*contacat section */
+.contact-section{
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+.contact-section h2{
+    color: #df1111;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+input[type="text"]{
+    width: 50%;
+    padding: 8px 15px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+   
+}
+textarea{
+    height: 60px;
+    width: 450px;
+    padding-left: 14px;
+    text-align: initial;
+    font-weight: 100;
+    margin-bottom: 10px;
+    padding-top: 18px;
+
+}
+input[type="submit"]{
+    width: 150px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #df1111;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 3px;
+    font-weight:300;
+}
+input[type="submit"]:hover{
+    background-color: rgb(197, 94, 63);
+    
+}
+
+.ham-burger{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    display: none ;
+}
+.line{
+    width: 30px;
+    height: 5px;
+    background-color: whitesmoke;
+    margin: 5px 6px ;
+}
+
+
+@media only screen and (max-width:1200px){
+    .navbar{
+        flex-direction: column;
+        /* text-align: center; */
+     
+    }
+    .logo{
+        float: left;
+        text-align: left;
+    }
+    
+    .navbar ul{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 12px;
+        
+    }
+    .navbar ul li{
+        padding-top: 15px;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    .about-content .para{
+        flex-direction: column;
+    }
+    .ham-burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+}
